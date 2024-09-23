@@ -1,4 +1,208 @@
 
-.container-fluid{
-    
+.navbar{
+    background-color: red;
 }
+
+footer {
+    background-color: #232D4B;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.logo {
+    height: auto;
+    width: 50%;
+}
+
+body{
+    background-color: white;
+  }
+  
+  .eng {
+    height:300px;
+    background: url(imgs/Colleges/college\ of\ Engineering.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+  }
+  
+  .csla {
+    height:300px;
+    background: url(imgs/Colleges/College\ of\ science\ and\ liberal\ arts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+  }
+  .des {
+    height:300px;
+    background: url(imgs/Colleges/college\ of\ architecture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+  }
+  .comp {
+    height:300px;
+    background: url(imgs/Colleges/College\ of\ compting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+  }
+  .man {
+    height:300px;
+    background: url(imgs/Colleges/college\ of\ management.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+  }
+  .hon {
+    height:300px;
+    background: url(imgs/Colleges/Honors\ college.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+  }
+
+  .title-heading:hover{
+    opacity: 100%;
+    box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 #000000;
+    transition: 0.5s;
+  }
+
+  
+  .date{
+      text-align: center;
+      font-size: 5em;
+      padding-top: 10%;
+    }
+    .header-pic {
+      padding: 6%; 
+    }
+    .pic{
+    display: flex;
+    align-items: center;
+    border: double 5px red;
+    }
+    .blurb{
+      text-align: center;
+      padding: 3%;
+    margin: 3%;
+      max-height:475px;
+      color: white;
+    }
+    .blurbb{
+      background-color:#cc0033 ;
+      border-radius: 20%;
+      box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #797979;
+      margin-top: 3%;
+    }
+    .datee{
+      border: solid #cc0033 3px;
+      margin-top: -2%;
+      opacity: 100%;
+      width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+      font-style: normal;
+    }
+    .navbar-brand{
+      color:rgb(255, 255, 255);
+      transition: 0.5s;
+      font-family: "Rasa", serif;
+      font-size: 25px;
+    }
+    .navbar-brand:hover{
+      color:#ffffff;
+      transition: 0.5s;
+    }
+
+  
+    .date{
+      font-family: "Old Standard TT", serif;
+      font-weight: 700;
+      font-style: normal;
+      color: black;
+    }
+  .linee{
+    border: solid #9b9595 2px;
+  opacity: 100%;
+  }
+  .learning{
+    font-family: "Old Standard TT", serif;
+   font-weight: 700;
+  }
+  .white {
+    height:300px;
+    background: #cc0033;
+  }
+  
+  
+  .title-heading {
+    font-weight: 900;
+    opacity: 89%;
+    color:#ffffff;
+    font-size: clamp(4rem, 5vw, 400px);
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #cc0033;
+    text-decoration-thickness:4px;
+    transition: 0.5s;
+  }
+  .title-heading:hover{
+    opacity: 100%;
+    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 red;
+    transition: 0.5s;
+  }
+  
+  
+  .description {
+    color: #ffffff;
+    font-size: clamp(1rem, 1.2vw, 400px);
+  }
+  
+  .roww {
+    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #797979;
+  }
+  .row:target {
+    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #797979;
+    border-color: #503b3b;
+    animation: ease-in-out;
+    opacity: 4;
+  }
+  
+  .nav-link {
+    color: white;
+    font-family: "Rasa", serif;
+  }
+  
+  .nav-link:hover {
+    color: #9b9595;
+  }
+  
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #cc0033; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-family: "Rasa", serif;
+    transition: 0.3s;
+  }
+  
+  #myBtn:hover {
+    background-color: #76001e; /* Add a dark-grey background on hover */
+    transition: 0.3s;
+  
+  }
+  
+  
+  
+  
