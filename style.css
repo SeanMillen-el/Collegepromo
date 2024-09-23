@@ -15,7 +15,7 @@ footer {
 }
 
 body{
-    background-color: white;
+    background-color: black;
   }
   
   .eng {
@@ -124,16 +124,17 @@ body{
       color: black;
     }
   .linee{
-    border: solid #9b9595 2px;
+    border: solid red 2px;
   opacity: 100%;
   }
   .learning{
     font-family: "Old Standard TT", serif;
    font-weight: 700;
+   color: white;
   }
   .white {
     height:300px;
-    background: #cc0033;
+    background: red;
   }
   
   
@@ -150,7 +151,7 @@ body{
   }
   .title-heading:hover{
     opacity: 100%;
-    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 red;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 red;
     transition: 0.5s;
   }
   
